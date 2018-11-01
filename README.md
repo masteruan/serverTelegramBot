@@ -6,8 +6,6 @@ You must install urllib3 and telepot
 # Install Libraries
 For install the libraries type
 pip install telepot
-
-after 
 pip install urllib3
 
 # Instructions
