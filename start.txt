@@ -1,0 +1,12 @@
+Text file
+Insert instructions
+
+You can use the bot by send this message to the bot:
+
+/start - For read this instructions
+/orari - For read the orari
+/docenti
+/riferimenti
+/note
+/test - This is the server test read
+
