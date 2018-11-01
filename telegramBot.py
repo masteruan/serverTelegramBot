@@ -16,7 +16,7 @@ def handle(msg):
 
     webf = urllib.urlopen('http://www.*************************.txt')
     test = webf.read()
-    text = (open("text.txt", "r").read())
+    text = (open("Answer/text.txt", "r").read())
     orari = (open("orari.txt", "r").read())
     docenti = (open("docenti.txt", "r").read())
     riferimenti = (open("riferimenti.txt", "r").read())
@@ -38,6 +38,8 @@ def handle(msg):
        bot.sendMessage(chat_id, note)
     elif command == '/test':
        bot.sendMessage(chat_id, test)
+    elif command == '/text':
+       bot.sendMessage(chat_id, text)
 
 bot = telepot.Bot('*****************************************')
 bot.message_loop(handle)
